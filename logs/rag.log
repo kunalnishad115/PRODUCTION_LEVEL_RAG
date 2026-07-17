@@ -1,0 +1,1470 @@
+2026-07-15 14:42:35.249 | INFO     | app.loaders.pdf_loader:load:8 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-15 14:42:36.641 | INFO     | app.loaders.pdf_loader:load:11 - Loaded 1 pages successfully.
+2026-07-15 15:02:52.402 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-15 15:02:52.524 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-15 15:20:57.333 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-15 15:20:57.507 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-15 15:56:52.309 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-15 15:56:52.441 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-15 15:57:38.316 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-15 15:57:38.447 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-15 16:28:39.177 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-15 16:28:39.295 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-15 16:28:40.249 | INFO     | app.vectorstore.chroma_store:__init__:25 - ChromaDB initialized successfully.
+2026-07-15 16:28:40.250 | INFO     | app.vectorstore.chroma_store:add_documents:36 - Indexing 2 chunks into ChromaDB...
+2026-07-15 16:28:40.955 | INFO     | app.vectorstore.chroma_store:add_documents:42 - Indexing completed successfully.
+2026-07-15 16:28:40.955 | INFO     | app.vectorstore.chroma_store:similarity_search:53 - Searching top 15 documents for query: What is Production RAG?
+2026-07-15 16:28:41.307 | INFO     | app.vectorstore.chroma_store:similarity_search:62 - Retrieved 2 relevant chunks.
+2026-07-15 16:45:24.252 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-15 16:45:24.368 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-15 16:45:24.568 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-15 16:45:24.568 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-15 16:45:24.568 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-15 16:45:25.141 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-15 16:45:25.141 | INFO     | app.vectorstore.chroma_store:similarity_search:85 - Searching top 15 documents for query: What is Production RAG?
+2026-07-15 16:45:25.504 | INFO     | app.vectorstore.chroma_store:similarity_search:94 - Retrieved 4 relevant chunks.
+2026-07-16 11:07:32.206 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 11:07:32.441 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 11:07:33.399 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 11:07:33.399 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 11:07:33.400 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 2 deterministic chunk IDs.
+2026-07-16 11:07:33.947 | INFO     | app.vectorstore.chroma_store:add_documents:62 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 11:10:32.324 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 11:10:32.450 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 11:10:32.679 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 11:10:32.680 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 11:10:32.680 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 2 deterministic chunk IDs.
+2026-07-16 11:10:33.200 | INFO     | app.vectorstore.chroma_store:add_documents:62 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 11:10:33.234 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 11:10:33.235 | INFO     | app.retriever.vector_retriever:retrieve:28 - Retrieving documents for query : What is Production RAG?
+2026-07-16 11:10:33.235 | INFO     | app.vectorstore.chroma_store:similarity_search:76 - Searching top 15 documents for query: What is Production RAG?
+2026-07-16 11:10:33.851 | INFO     | app.vectorstore.chroma_store:similarity_search:83 - Retrieved 4 relevant chunks.
+2026-07-16 11:10:33.851 | INFO     | app.retriever.vector_retriever:retrieve:36 - Retrieved 4 documents.
+2026-07-16 11:22:18.817 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 11:22:18.925 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 11:22:41.151 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 11:22:41.255 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 11:22:41.456 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 11:22:41.457 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 11:22:41.457 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-16 11:22:42.045 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 11:22:42.078 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 11:22:42.078 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What is Production RAG?
+2026-07-16 11:22:42.078 | INFO     | app.vectorstore.chroma_store:similarity_search:85 - Searching top 15 documents for query: What is Production RAG?
+2026-07-16 11:22:42.513 | INFO     | app.vectorstore.chroma_store:similarity_search:94 - Retrieved 4 relevant chunks.
+2026-07-16 11:22:42.513 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 11:42:09.573 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 11:42:09.690 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 11:42:09.900 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 11:42:09.901 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 11:42:09.901 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-16 11:42:10.709 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 11:42:10.740 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 11:42:10.741 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What is Production RAG?
+2026-07-16 11:42:10.741 | INFO     | app.vectorstore.chroma_store:similarity_search:85 - Searching top 15 documents for query: What is Production RAG?
+2026-07-16 11:42:12.024 | INFO     | app.vectorstore.chroma_store:similarity_search:94 - Retrieved 4 relevant chunks.
+2026-07-16 11:42:12.024 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 14:22:53.963 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 14:22:54.179 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 14:22:55.173 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 14:22:55.173 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 14:22:55.174 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-16 14:22:55.780 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 14:22:55.795 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 14:22:55.796 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What is Production RAG?
+2026-07-16 14:22:55.900 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 14:42:44.553 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 14:42:44.670 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 14:42:44.874 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 14:42:44.874 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 14:42:44.874 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-16 14:42:45.600 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 14:46:03.614 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 14:46:03.771 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 14:46:04.056 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 14:46:04.056 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 14:46:04.056 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-16 14:46:04.563 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 14:46:04.600 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 14:46:04.602 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 14:46:04.602 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 14:46:04.602 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What is Production RAG?
+2026-07-16 14:46:04.602 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What is Production RAG?
+2026-07-16 14:46:04.602 | INFO     | app.vectorstore.chroma_store:similarity_search:85 - Searching top 15 documents for query: What is Production RAG?
+2026-07-16 14:46:05.092 | INFO     | app.vectorstore.chroma_store:similarity_search:94 - Retrieved 4 relevant chunks.
+2026-07-16 14:46:05.092 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 14:46:05.092 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What is Production RAG?
+2026-07-16 14:46:05.098 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 14:46:05.098 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 15:23:03.155 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 15:23:03.467 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 15:23:03.661 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 15:23:03.661 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 15:23:03.661 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-16 15:23:04.293 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 15:23:04.324 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 15:23:04.325 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 15:23:04.326 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 15:23:04.326 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What is Production RAG?
+2026-07-16 15:23:04.326 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What is Production RAG?
+2026-07-16 15:23:04.326 | INFO     | app.vectorstore.chroma_store:similarity_search:85 - Searching top 15 documents for query: What is Production RAG?
+2026-07-16 15:23:04.771 | INFO     | app.vectorstore.chroma_store:similarity_search:94 - Retrieved 4 relevant chunks.
+2026-07-16 15:23:04.771 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 15:23:04.771 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What is Production RAG?
+2026-07-16 15:23:04.778 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 15:23:04.778 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 15:23:04.779 | INFO     | app.reranker.cross_encoder_reranker:__init__:14 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 15:23:40.337 | INFO     | app.reranker.cross_encoder_reranker:__init__:22 - Cross Encoder loaded successfully.
+2026-07-16 15:23:40.337 | INFO     | app.reranker.cross_encoder_reranker:rerank:32 - Reranking 2 documents...
+2026-07-16 15:23:40.476 | INFO     | app.reranker.cross_encoder_reranker:rerank:52 - Returned Top 2 reranked documents.
+2026-07-16 15:40:45.308 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 15:40:45.407 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 15:40:45.599 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 15:40:45.599 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 15:40:45.600 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-16 15:40:46.201 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 15:40:46.231 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 15:40:46.233 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 15:40:46.233 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 15:40:46.233 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What is Production RAG?
+2026-07-16 15:40:46.233 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What is Production RAG?
+2026-07-16 15:40:46.233 | INFO     | app.vectorstore.chroma_store:similarity_search:85 - Searching top 15 documents for query: What is Production RAG?
+2026-07-16 15:40:46.680 | INFO     | app.vectorstore.chroma_store:similarity_search:94 - Retrieved 4 relevant chunks.
+2026-07-16 15:40:46.681 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 15:40:46.681 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What is Production RAG?
+2026-07-16 15:40:46.687 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 15:40:46.688 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 15:40:46.688 | INFO     | app.reranker.cross_encoder_reranker:__init__:14 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 15:40:55.736 | INFO     | app.reranker.cross_encoder_reranker:__init__:22 - Cross Encoder loaded successfully.
+2026-07-16 15:40:55.736 | INFO     | app.reranker.cross_encoder_reranker:rerank:32 - Reranking 2 documents...
+2026-07-16 15:40:55.793 | INFO     | app.reranker.cross_encoder_reranker:rerank:52 - Returned Top 2 reranked documents.
+2026-07-16 15:40:55.794 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 15:40:55.886 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 15:40:55.886 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 15:41:05.964 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 16:12:00.813 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 16:20:04.470 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 16:20:04.470 | INFO     | app.services.indexing_service:index_document:37 - Indexing document : data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:20:04.470 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:20:04.562 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 16:20:04.563 | INFO     | app.services.indexing_service:index_document:46 - Loaded 1 pages.
+2026-07-16 16:20:04.563 | INFO     | app.services.indexing_service:index_document:55 - Generated 2 chunks.
+2026-07-16 16:20:04.563 | INFO     | app.services.indexing_service:index_document:64 - Saved chunks into Document Store.
+2026-07-16 16:20:04.563 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 16:20:04.563 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-16 16:20:05.213 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 16:20:05.213 | INFO     | app.services.indexing_service:index_document:73 - Saved chunks into ChromaDB.
+2026-07-16 16:20:05.213 | INFO     | app.services.indexing_service:index_document:77 - Indexing completed successfully.
+2026-07-16 16:20:05.244 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 16:20:05.246 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 16:20:05.246 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 16:20:05.246 | INFO     | app.reranker.cross_encoder_reranker:__init__:14 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 16:20:13.925 | INFO     | app.reranker.cross_encoder_reranker:__init__:22 - Cross Encoder loaded successfully.
+2026-07-16 16:20:13.925 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 16:20:13.963 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 16:20:13.963 | INFO     | app.services.rag_service:ask:28 - Question : What is Production RAG?
+2026-07-16 16:20:13.963 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What is Production RAG?
+2026-07-16 16:20:13.963 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What is Production RAG?
+2026-07-16 16:20:13.963 | INFO     | app.vectorstore.chroma_store:similarity_search:85 - Searching top 15 documents for query: What is Production RAG?
+2026-07-16 16:20:14.587 | INFO     | app.vectorstore.chroma_store:similarity_search:94 - Retrieved 4 relevant chunks.
+2026-07-16 16:20:14.587 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 16:20:14.588 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What is Production RAG?
+2026-07-16 16:20:14.593 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 16:20:14.593 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 16:20:14.593 | INFO     | app.reranker.cross_encoder_reranker:rerank:32 - Reranking 2 documents...
+2026-07-16 16:20:14.655 | INFO     | app.reranker.cross_encoder_reranker:rerank:52 - Returned Top 2 reranked documents.
+2026-07-16 16:20:14.655 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 16:20:14.655 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 16:20:14.656 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 16:20:18.073 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 16:20:18.073 | INFO     | app.services.rag_service:ask:59 - Answer generated successfully.
+2026-07-16 16:21:21.758 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 16:21:21.758 | INFO     | app.services.indexing_service:index_document:37 - Indexing document : data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:21:21.759 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:21:21.846 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 16:21:21.846 | INFO     | app.services.indexing_service:index_document:46 - Loaded 1 pages.
+2026-07-16 16:21:21.846 | INFO     | app.services.indexing_service:index_document:55 - Generated 2 chunks.
+2026-07-16 16:21:21.846 | INFO     | app.services.indexing_service:index_document:64 - Saved chunks into Document Store.
+2026-07-16 16:21:21.846 | INFO     | app.vectorstore.chroma_store:add_documents:45 - Preparing 2 chunks for indexing...
+2026-07-16 16:21:21.847 | INFO     | app.vectorstore.chroma_store:add_documents:60 - Generated 2 deterministic chunk IDs.
+2026-07-16 16:21:22.355 | INFO     | app.vectorstore.chroma_store:add_documents:69 - Successfully indexed 2 chunks into ChromaDB.
+2026-07-16 16:21:22.355 | INFO     | app.services.indexing_service:index_document:73 - Saved chunks into ChromaDB.
+2026-07-16 16:21:22.356 | INFO     | app.services.indexing_service:index_document:77 - Indexing completed successfully.
+2026-07-16 16:21:22.386 | INFO     | app.vectorstore.chroma_store:__init__:31 - ChromaDB initialized successfully.
+2026-07-16 16:21:22.387 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 16:21:22.388 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 16:21:22.388 | INFO     | app.reranker.cross_encoder_reranker:__init__:14 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 16:21:30.835 | INFO     | app.reranker.cross_encoder_reranker:__init__:22 - Cross Encoder loaded successfully.
+2026-07-16 16:21:30.835 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 16:21:30.874 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 16:21:30.874 | INFO     | app.services.rag_service:ask:28 - Question : What is Main Components of Production Rag ?
+2026-07-16 16:21:30.874 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What is Main Components of Production Rag ?
+2026-07-16 16:21:30.874 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What is Main Components of Production Rag ?
+2026-07-16 16:21:30.874 | INFO     | app.vectorstore.chroma_store:similarity_search:85 - Searching top 15 documents for query: What is Main Components of Production Rag ?
+2026-07-16 16:21:31.305 | INFO     | app.vectorstore.chroma_store:similarity_search:94 - Retrieved 4 relevant chunks.
+2026-07-16 16:21:31.305 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 16:21:31.305 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What is Main Components of Production Rag ?
+2026-07-16 16:21:31.311 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 16:21:31.312 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 16:21:31.312 | INFO     | app.reranker.cross_encoder_reranker:rerank:32 - Reranking 2 documents...
+2026-07-16 16:21:31.374 | INFO     | app.reranker.cross_encoder_reranker:rerank:52 - Returned Top 2 reranked documents.
+2026-07-16 16:21:31.374 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 16:21:31.374 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 16:21:31.375 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 16:21:34.410 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 16:21:34.410 | INFO     | app.services.rag_service:ask:59 - Answer generated successfully.
+2026-07-16 16:38:15.077 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 16:38:15.077 | INFO     | app.services.indexing_service:index_document:37 - Indexing document : data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:38:15.077 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:38:15.170 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 16:38:15.171 | INFO     | app.services.indexing_service:index_document:46 - Loaded 1 pages.
+2026-07-16 16:38:15.171 | INFO     | app.services.indexing_service:index_document:55 - Generated 2 chunks.
+2026-07-16 16:38:15.171 | INFO     | app.services.indexing_service:index_document:64 - Saved chunks into Document Store.
+2026-07-16 16:38:15.171 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-16 16:38:15.171 | INFO     | app.vectorstore.chroma_store:add_documents:57 - Generated 2 deterministic chunk IDs.
+2026-07-16 16:38:15.194 | INFO     | app.vectorstore.chroma_store:add_documents:67 - Found 4 existing chunks in ChromaDB.
+2026-07-16 16:38:15.195 | INFO     | app.vectorstore.chroma_store:add_documents:90 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-16 16:38:15.195 | INFO     | app.services.indexing_service:index_document:73 - Saved chunks into ChromaDB.
+2026-07-16 16:38:15.195 | INFO     | app.services.indexing_service:index_document:77 - Indexing completed successfully.
+2026-07-16 16:38:15.226 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 16:38:15.228 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 16:38:15.228 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 16:38:15.228 | INFO     | app.reranker.cross_encoder_reranker:__init__:14 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 16:38:23.621 | INFO     | app.reranker.cross_encoder_reranker:__init__:22 - Cross Encoder loaded successfully.
+2026-07-16 16:38:23.621 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 16:38:23.661 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 16:38:23.661 | INFO     | app.services.rag_service:ask:28 - Question : What is Main Components of Production Rag ?
+2026-07-16 16:38:23.661 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What is Main Components of Production Rag ?
+2026-07-16 16:38:23.661 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What is Main Components of Production Rag ?
+2026-07-16 16:38:23.662 | INFO     | app.vectorstore.chroma_store:similarity_search:121 - Searching top 15 documents for query: What is Main Components of Production Rag ?
+2026-07-16 16:38:24.128 | INFO     | app.vectorstore.chroma_store:similarity_search:130 - Retrieved 4 relevant chunks.
+2026-07-16 16:38:24.128 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 16:38:24.128 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What is Main Components of Production Rag ?
+2026-07-16 16:38:24.138 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 16:38:24.139 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 16:38:24.139 | INFO     | app.reranker.cross_encoder_reranker:rerank:32 - Reranking 2 documents...
+2026-07-16 16:38:24.195 | INFO     | app.reranker.cross_encoder_reranker:rerank:52 - Returned Top 2 reranked documents.
+2026-07-16 16:38:24.196 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 16:38:24.196 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 16:38:24.196 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 16:38:27.437 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 16:38:27.437 | INFO     | app.services.rag_service:ask:59 - Answer generated successfully.
+2026-07-16 16:51:45.143 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 16:51:45.143 | INFO     | app.services.indexing_service:index_document:37 - Indexing document : data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:51:45.143 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:51:45.233 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 16:51:45.233 | INFO     | app.services.indexing_service:index_document:46 - Loaded 1 pages.
+2026-07-16 16:51:45.234 | INFO     | app.services.indexing_service:index_document:55 - Generated 2 chunks.
+2026-07-16 16:51:45.234 | INFO     | app.services.indexing_service:index_document:64 - Saved chunks into Document Store.
+2026-07-16 16:51:45.234 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-16 16:51:45.234 | INFO     | app.vectorstore.chroma_store:add_documents:57 - Generated 2 deterministic chunk IDs.
+2026-07-16 16:51:45.272 | INFO     | app.vectorstore.chroma_store:add_documents:67 - Found 4 existing chunks in ChromaDB.
+2026-07-16 16:51:45.272 | INFO     | app.vectorstore.chroma_store:add_documents:90 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-16 16:51:45.272 | INFO     | app.services.indexing_service:index_document:73 - Saved chunks into ChromaDB.
+2026-07-16 16:51:45.272 | INFO     | app.services.indexing_service:index_document:77 - Indexing completed successfully.
+2026-07-16 16:51:45.303 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 16:51:45.305 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 16:51:45.305 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 16:51:45.306 | INFO     | app.reranker.cross_encoder_reranker:__init__:14 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 16:51:53.760 | INFO     | app.reranker.cross_encoder_reranker:__init__:22 - Cross Encoder loaded successfully.
+2026-07-16 16:51:53.760 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 16:51:53.799 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 16:51:53.799 | INFO     | app.services.rag_service:ask:21 - Question : What are the main components of Production RAG?
+2026-07-16 16:51:53.799 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What are the main components of Production RAG?
+2026-07-16 16:51:53.799 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What are the main components of Production RAG?
+2026-07-16 16:51:53.800 | INFO     | app.vectorstore.chroma_store:similarity_search:121 - Searching top 15 documents for query: What are the main components of Production RAG?
+2026-07-16 16:51:54.276 | INFO     | app.vectorstore.chroma_store:similarity_search:130 - Retrieved 4 relevant chunks.
+2026-07-16 16:51:54.276 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 16:51:54.277 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What are the main components of Production RAG?
+2026-07-16 16:51:54.284 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 16:51:54.284 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 16:51:54.284 | INFO     | app.reranker.cross_encoder_reranker:rerank:32 - Reranking 2 documents...
+2026-07-16 16:51:54.361 | INFO     | app.reranker.cross_encoder_reranker:rerank:52 - Returned Top 2 reranked documents.
+2026-07-16 16:51:54.361 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 16:51:54.361 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 16:51:54.362 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 16:51:57.952 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 16:51:57.953 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 16:51:57.953 | INFO     | app.services.citation_service:build:46 - Generated 1 citations.
+2026-07-16 16:54:28.815 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 16:54:28.815 | INFO     | app.services.indexing_service:index_document:37 - Indexing document : data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:54:28.816 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 16:54:28.925 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 16:54:28.925 | INFO     | app.services.indexing_service:index_document:46 - Loaded 1 pages.
+2026-07-16 16:54:28.925 | INFO     | app.services.indexing_service:index_document:55 - Generated 2 chunks.
+2026-07-16 16:54:28.925 | INFO     | app.services.indexing_service:index_document:64 - Saved chunks into Document Store.
+2026-07-16 16:54:28.925 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-16 16:54:28.926 | INFO     | app.vectorstore.chroma_store:add_documents:57 - Generated 2 deterministic chunk IDs.
+2026-07-16 16:54:28.959 | INFO     | app.vectorstore.chroma_store:add_documents:67 - Found 4 existing chunks in ChromaDB.
+2026-07-16 16:54:28.959 | INFO     | app.vectorstore.chroma_store:add_documents:90 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-16 16:54:28.959 | INFO     | app.services.indexing_service:index_document:73 - Saved chunks into ChromaDB.
+2026-07-16 16:54:28.959 | INFO     | app.services.indexing_service:index_document:77 - Indexing completed successfully.
+2026-07-16 16:54:28.993 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 16:54:28.995 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 16:54:28.995 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 16:54:28.995 | INFO     | app.reranker.cross_encoder_reranker:__init__:14 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 16:54:37.533 | INFO     | app.reranker.cross_encoder_reranker:__init__:22 - Cross Encoder loaded successfully.
+2026-07-16 16:54:37.533 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 16:54:37.571 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 16:54:37.571 | INFO     | app.services.rag_service:ask:21 - Question : What are the main components of Production RAG?
+2026-07-16 16:54:37.571 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What are the main components of Production RAG?
+2026-07-16 16:54:37.571 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What are the main components of Production RAG?
+2026-07-16 16:54:37.572 | INFO     | app.vectorstore.chroma_store:similarity_search:121 - Searching top 15 documents for query: What are the main components of Production RAG?
+2026-07-16 16:54:38.098 | INFO     | app.vectorstore.chroma_store:similarity_search:130 - Retrieved 4 relevant chunks.
+2026-07-16 16:54:38.098 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 16:54:38.098 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What are the main components of Production RAG?
+2026-07-16 16:54:38.105 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 16:54:38.105 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 16:54:38.105 | INFO     | app.reranker.cross_encoder_reranker:rerank:32 - Reranking 2 documents...
+2026-07-16 16:54:38.163 | INFO     | app.reranker.cross_encoder_reranker:rerank:52 - Returned Top 2 reranked documents.
+2026-07-16 16:54:38.163 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 16:54:38.163 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 16:54:38.163 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 16:54:40.924 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 16:54:40.925 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 16:54:40.925 | INFO     | app.services.citation_service:build:46 - Generated 1 citations.
+2026-07-16 22:21:43.918 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 22:21:43.919 | INFO     | app.services.indexing_service:index_document:37 - Indexing document : data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 22:21:43.919 | INFO     | app.loaders.pdf_loader:load:9 - loading file: data/raw/Production_RAG_Project_Architecture_Overview.pdf
+2026-07-16 22:21:44.079 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 22:21:44.079 | INFO     | app.services.indexing_service:index_document:46 - Loaded 1 pages.
+2026-07-16 22:21:44.080 | INFO     | app.services.indexing_service:index_document:55 - Generated 2 chunks.
+2026-07-16 22:21:44.080 | INFO     | app.services.indexing_service:index_document:64 - Saved chunks into Document Store.
+2026-07-16 22:21:44.080 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-16 22:21:44.081 | INFO     | app.vectorstore.chroma_store:add_documents:57 - Generated 2 deterministic chunk IDs.
+2026-07-16 22:21:44.141 | INFO     | app.vectorstore.chroma_store:add_documents:67 - Found 4 existing chunks in ChromaDB.
+2026-07-16 22:21:44.141 | INFO     | app.vectorstore.chroma_store:add_documents:90 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-16 22:21:44.141 | INFO     | app.services.indexing_service:index_document:73 - Saved chunks into ChromaDB.
+2026-07-16 22:21:44.141 | INFO     | app.services.indexing_service:index_document:77 - Indexing completed successfully.
+2026-07-16 22:21:44.176 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 22:21:44.180 | INFO     | app.retriever.bm25_retriever:__init__:37 - BM25 initialized with 2 documents.
+2026-07-16 22:21:44.181 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 22:21:44.181 | INFO     | app.reranker.cross_encoder_reranker:__init__:14 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 22:21:54.116 | INFO     | app.reranker.cross_encoder_reranker:__init__:22 - Cross Encoder loaded successfully.
+2026-07-16 22:21:54.117 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 22:21:54.159 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 22:21:54.160 | INFO     | app.services.rag_service:ask:21 - Question : What are the main components of Production RAG?
+2026-07-16 22:21:54.160 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What are the main components of Production RAG?
+2026-07-16 22:21:54.160 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What are the main components of Production RAG?
+2026-07-16 22:21:54.160 | INFO     | app.vectorstore.chroma_store:similarity_search:121 - Searching top 15 documents for query: What are the main components of Production RAG?
+2026-07-16 22:21:55.131 | INFO     | app.vectorstore.chroma_store:similarity_search:130 - Retrieved 4 relevant chunks.
+2026-07-16 22:21:55.132 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 22:21:55.132 | INFO     | app.retriever.bm25_retriever:retrieve:50 - BM25 retrieving documents for : What are the main components of Production RAG?
+2026-07-16 22:21:55.149 | INFO     | app.retriever.bm25_retriever:retrieve:56 - BM25 retrieved 2 documents.
+2026-07-16 22:21:55.150 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 22:21:55.150 | INFO     | app.reranker.cross_encoder_reranker:rerank:32 - Reranking 2 documents...
+2026-07-16 22:21:55.353 | INFO     | app.reranker.cross_encoder_reranker:rerank:52 - Returned Top 2 reranked documents.
+2026-07-16 22:21:55.353 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 22:21:55.354 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 22:21:55.354 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 22:21:57.973 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 22:21:57.974 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 22:21:57.974 | INFO     | app.services.citation_service:build:46 - Generated 1 citations.
+2026-07-16 22:54:20.123 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 22:55:21.553 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 22:56:02.650 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 22:56:02.687 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:12:54.782 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:12:54.782 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:12:54.818 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 4 documents from ChromaDB.
+2026-07-16 23:15:52.043 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:16:22.368 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:16:22.430 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:16:22.492 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:16:22.492 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:16:22.494 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 4 documents from ChromaDB.
+2026-07-16 23:16:22.496 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 4 documents.
+2026-07-16 23:16:22.497 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:16:22.497 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:16:22.567 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:16:22.568 | INFO     | app.services.rag_service:ask:21 - Question : what is advanced rag 
+2026-07-16 23:16:22.568 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is advanced rag 
+2026-07-16 23:16:22.568 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is advanced rag 
+2026-07-16 23:16:22.568 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is advanced rag 
+2026-07-16 23:16:23.235 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 4 relevant chunks.
+2026-07-16 23:16:23.236 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 23:16:23.236 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is advanced rag 
+2026-07-16 23:16:23.258 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 4 documents.
+2026-07-16 23:16:23.258 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 23:16:23.258 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:16:32.336 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:16:32.336 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 2 documents...
+2026-07-16 23:16:32.681 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 2 reranked documents.
+2026-07-16 23:16:32.682 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 23:16:32.682 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:16:32.683 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:16:35.268 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:16:35.269 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:16:35.269 | INFO     | app.services.citation_service:build:46 - Generated 1 citations.
+2026-07-16 23:17:05.106 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:17:05.142 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:17:05.174 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:17:05.174 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:17:05.177 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 4 documents from ChromaDB.
+2026-07-16 23:17:05.177 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 4 documents.
+2026-07-16 23:17:05.177 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:17:05.178 | INFO     | app.services.rag_service:ask:21 - Question : what is rag 
+2026-07-16 23:17:05.178 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is rag 
+2026-07-16 23:17:05.178 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is rag 
+2026-07-16 23:17:05.178 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is rag 
+2026-07-16 23:17:05.627 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 4 relevant chunks.
+2026-07-16 23:17:05.627 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 23:17:05.627 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is rag 
+2026-07-16 23:17:05.628 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 4 documents.
+2026-07-16 23:17:05.628 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 23:17:05.628 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 2 documents...
+2026-07-16 23:17:05.681 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 2 reranked documents.
+2026-07-16 23:17:05.681 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 23:17:05.681 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:17:05.681 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:17:07.533 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:17:07.533 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:17:07.533 | INFO     | app.services.citation_service:build:46 - Generated 1 citations.
+2026-07-16 23:18:47.090 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:18:47.090 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:18:47.130 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:18:47.130 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:18:47.159 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:18:47.159 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:18:47.160 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:18:47.160 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:18:47.160 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 4 documents from ChromaDB.
+2026-07-16 23:18:47.160 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 4 documents from ChromaDB.
+2026-07-16 23:18:47.161 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 4 documents.
+2026-07-16 23:18:47.161 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 4 documents.
+2026-07-16 23:18:47.161 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:18:47.161 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:18:47.161 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:18:47.161 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:18:47.199 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:18:47.199 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:18:47.200 | INFO     | app.services.rag_service:ask:21 - Question : Production RAG Architecture
+2026-07-16 23:18:47.200 | INFO     | app.services.rag_service:ask:21 - Question : Production RAG Architecture
+2026-07-16 23:18:47.200 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: Production RAG Architecture
+2026-07-16 23:18:47.200 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: Production RAG Architecture
+2026-07-16 23:18:47.200 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: Production RAG Architecture
+2026-07-16 23:18:47.200 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: Production RAG Architecture
+2026-07-16 23:18:47.200 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: Production RAG Architecture
+2026-07-16 23:18:47.200 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: Production RAG Architecture
+2026-07-16 23:18:47.588 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 4 relevant chunks.
+2026-07-16 23:18:47.588 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 4 relevant chunks.
+2026-07-16 23:18:47.588 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 23:18:47.588 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 4 documents.
+2026-07-16 23:18:47.588 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : Production RAG Architecture
+2026-07-16 23:18:47.588 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : Production RAG Architecture
+2026-07-16 23:18:47.590 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 4 documents.
+2026-07-16 23:18:47.590 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 4 documents.
+2026-07-16 23:18:47.590 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 23:18:47.590 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 2 unique documents.
+2026-07-16 23:18:47.590 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:18:47.590 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:18:57.614 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:18:57.614 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:18:57.614 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 2 documents...
+2026-07-16 23:18:57.614 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 2 documents...
+2026-07-16 23:18:57.679 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 2 reranked documents.
+2026-07-16 23:18:57.679 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 2 reranked documents.
+2026-07-16 23:18:57.680 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 23:18:57.680 | INFO     | app.services.context_builder:build:24 - Building context using 2 documents.
+2026-07-16 23:18:57.680 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:18:57.680 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:18:57.680 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:18:57.680 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:19:00.456 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:19:00.456 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:19:00.456 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:19:00.456 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:19:00.457 | INFO     | app.services.citation_service:build:46 - Generated 1 citations.
+2026-07-16 23:19:00.457 | INFO     | app.services.citation_service:build:46 - Generated 1 citations.
+2026-07-16 23:21:39.387 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:21:39.387 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:21:56.127 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:21:56.127 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:21:56.162 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:21:56.162 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:21:56.163 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\References & Learning Resources Hadoop.pdf
+2026-07-16 23:21:56.163 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\References & Learning Resources Hadoop.pdf
+2026-07-16 23:21:56.163 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\References & Learning Resources Hadoop.pdf
+2026-07-16 23:21:56.163 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\References & Learning Resources Hadoop.pdf
+2026-07-16 23:21:56.527 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 7 pages successfully.
+2026-07-16 23:21:56.527 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 7 pages successfully.
+2026-07-16 23:21:56.527 | INFO     | app.services.indexing_service:index_document:36 - Loaded 7 pages.
+2026-07-16 23:21:56.527 | INFO     | app.services.indexing_service:index_document:36 - Loaded 7 pages.
+2026-07-16 23:21:56.528 | INFO     | app.services.indexing_service:index_document:45 - Generated 7 chunks.
+2026-07-16 23:21:56.528 | INFO     | app.services.indexing_service:index_document:45 - Generated 7 chunks.
+2026-07-16 23:21:56.528 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 7 chunks for indexing...
+2026-07-16 23:21:56.528 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 7 chunks for indexing...
+2026-07-16 23:21:56.529 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 7 deterministic chunk IDs.
+2026-07-16 23:21:56.529 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 7 deterministic chunk IDs.
+2026-07-16 23:21:56.529 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 4 existing chunks in ChromaDB.
+2026-07-16 23:21:56.529 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 4 existing chunks in ChromaDB.
+2026-07-16 23:21:57.264 | INFO     | app.vectorstore.chroma_store:add_documents:93 - Indexed 7 new chunks.
+2026-07-16 23:21:57.264 | INFO     | app.vectorstore.chroma_store:add_documents:93 - Indexed 7 new chunks.
+2026-07-16 23:21:57.265 | INFO     | app.vectorstore.chroma_store:add_documents:96 - Skipped 0 duplicate chunks.
+2026-07-16 23:21:57.265 | INFO     | app.vectorstore.chroma_store:add_documents:96 - Skipped 0 duplicate chunks.
+2026-07-16 23:21:57.265 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-16 23:21:57.265 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-16 23:21:57.265 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-16 23:21:57.265 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-16 23:22:11.211 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:22:11.211 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:22:11.250 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:22:11.250 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:22:11.282 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:22:11.282 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:22:11.282 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:22:11.282 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:22:11.283 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 11 documents from ChromaDB.
+2026-07-16 23:22:11.283 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 11 documents from ChromaDB.
+2026-07-16 23:22:11.284 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 11 documents.
+2026-07-16 23:22:11.284 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 11 documents.
+2026-07-16 23:22:11.285 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:22:11.285 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:22:11.285 | INFO     | app.services.rag_service:ask:21 - Question : what is Hadoop ? 
+2026-07-16 23:22:11.285 | INFO     | app.services.rag_service:ask:21 - Question : what is Hadoop ? 
+2026-07-16 23:22:11.285 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is Hadoop ? 
+2026-07-16 23:22:11.285 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is Hadoop ? 
+2026-07-16 23:22:11.285 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is Hadoop ? 
+2026-07-16 23:22:11.285 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is Hadoop ? 
+2026-07-16 23:22:11.285 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is Hadoop ? 
+2026-07-16 23:22:11.285 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is Hadoop ? 
+2026-07-16 23:22:11.689 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 11 relevant chunks.
+2026-07-16 23:22:11.689 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 11 relevant chunks.
+2026-07-16 23:22:11.690 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 11 documents.
+2026-07-16 23:22:11.690 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 11 documents.
+2026-07-16 23:22:11.690 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is Hadoop ? 
+2026-07-16 23:22:11.690 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is Hadoop ? 
+2026-07-16 23:22:11.691 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 11 documents.
+2026-07-16 23:22:11.691 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 11 documents.
+2026-07-16 23:22:11.692 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 9 unique documents.
+2026-07-16 23:22:11.692 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 9 unique documents.
+2026-07-16 23:22:11.692 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 9 documents...
+2026-07-16 23:22:11.692 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 9 documents...
+2026-07-16 23:22:11.891 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:22:11.891 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:22:11.892 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:22:11.892 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:22:11.892 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:22:11.892 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:22:11.892 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:22:11.892 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:22:14.087 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:22:14.087 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:22:14.088 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:22:14.088 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:22:14.088 | INFO     | app.services.citation_service:build:46 - Generated 5 citations.
+2026-07-16 23:22:14.088 | INFO     | app.services.citation_service:build:46 - Generated 5 citations.
+2026-07-16 23:26:48.825 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:26:48.825 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:26:48.825 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:26:48.896 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:26:48.896 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:26:48.896 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:26:48.949 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:26:48.949 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:26:48.949 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:26:48.949 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:26:48.949 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:26:48.949 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:26:48.951 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 11 documents from ChromaDB.
+2026-07-16 23:26:48.951 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 11 documents from ChromaDB.
+2026-07-16 23:26:48.951 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 11 documents from ChromaDB.
+2026-07-16 23:26:48.952 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 11 documents.
+2026-07-16 23:26:48.952 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 11 documents.
+2026-07-16 23:26:48.952 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 11 documents.
+2026-07-16 23:26:48.953 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:26:48.953 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:26:48.953 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:26:48.953 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:26:48.953 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:26:48.953 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:26:49.036 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:26:49.036 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:26:49.036 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:26:49.036 | INFO     | app.services.rag_service:ask:21 - Question : What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.036 | INFO     | app.services.rag_service:ask:21 - Question : What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.036 | INFO     | app.services.rag_service:ask:21 - Question : What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.037 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.037 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.037 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.037 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.037 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.037 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.037 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.037 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.037 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.499 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 11 relevant chunks.
+2026-07-16 23:26:49.499 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 11 relevant chunks.
+2026-07-16 23:26:49.499 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 11 relevant chunks.
+2026-07-16 23:26:49.499 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 11 documents.
+2026-07-16 23:26:49.499 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 11 documents.
+2026-07-16 23:26:49.499 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 11 documents.
+2026-07-16 23:26:49.499 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.499 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.499 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : What topics are covered in the Hadoop Fundamentals section?
+2026-07-16 23:26:49.500 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 11 documents.
+2026-07-16 23:26:49.500 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 11 documents.
+2026-07-16 23:26:49.500 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 11 documents.
+2026-07-16 23:26:49.500 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 9 unique documents.
+2026-07-16 23:26:49.500 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 9 unique documents.
+2026-07-16 23:26:49.500 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 9 unique documents.
+2026-07-16 23:26:49.501 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:26:49.501 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:26:49.501 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:26:57.884 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:26:57.884 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:26:57.884 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:26:57.885 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 9 documents...
+2026-07-16 23:26:57.885 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 9 documents...
+2026-07-16 23:26:57.885 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 9 documents...
+2026-07-16 23:26:58.228 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:26:58.228 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:26:58.228 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:26:58.229 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:26:58.229 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:26:58.229 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:26:58.229 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:26:58.229 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:26:58.229 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:26:58.229 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:26:58.229 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:26:58.229 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:27:02.961 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:27:02.961 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:27:02.961 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:27:02.961 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:27:02.961 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:27:02.961 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:27:02.961 | INFO     | app.services.citation_service:build:46 - Generated 5 citations.
+2026-07-16 23:27:02.961 | INFO     | app.services.citation_service:build:46 - Generated 5 citations.
+2026-07-16 23:27:02.961 | INFO     | app.services.citation_service:build:46 - Generated 5 citations.
+2026-07-16 23:29:53.416 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:30:21.046 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:30:21.046 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:30:35.164 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:30:35.164 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:30:35.229 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:30:35.229 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:30:35.289 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:30:35.289 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:30:35.289 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:30:35.289 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:30:35.291 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 11 documents from ChromaDB.
+2026-07-16 23:30:35.291 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 11 documents from ChromaDB.
+2026-07-16 23:30:35.294 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 11 documents.
+2026-07-16 23:30:35.294 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 11 documents.
+2026-07-16 23:30:35.295 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:30:35.295 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:30:35.295 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:30:35.295 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:30:35.380 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:30:35.380 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:30:35.380 | INFO     | app.services.rag_service:ask:21 - Question : tell me what is OOP ? 
+2026-07-16 23:30:35.380 | INFO     | app.services.rag_service:ask:21 - Question : tell me what is OOP ? 
+2026-07-16 23:30:35.380 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: tell me what is OOP ? 
+2026-07-16 23:30:35.380 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: tell me what is OOP ? 
+2026-07-16 23:30:35.381 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: tell me what is OOP ? 
+2026-07-16 23:30:35.381 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: tell me what is OOP ? 
+2026-07-16 23:30:35.381 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: tell me what is OOP ? 
+2026-07-16 23:30:35.381 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: tell me what is OOP ? 
+2026-07-16 23:30:37.414 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 11 relevant chunks.
+2026-07-16 23:30:37.414 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 11 relevant chunks.
+2026-07-16 23:30:37.414 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 11 documents.
+2026-07-16 23:30:37.414 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 11 documents.
+2026-07-16 23:30:37.414 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : tell me what is OOP ? 
+2026-07-16 23:30:37.414 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : tell me what is OOP ? 
+2026-07-16 23:30:37.425 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 11 documents.
+2026-07-16 23:30:37.425 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 11 documents.
+2026-07-16 23:30:37.426 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 9 unique documents.
+2026-07-16 23:30:37.426 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 9 unique documents.
+2026-07-16 23:30:37.426 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:30:37.426 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:30:46.773 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:30:46.773 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:30:46.774 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 9 documents...
+2026-07-16 23:30:46.774 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 9 documents...
+2026-07-16 23:30:47.075 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:30:47.075 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:30:47.076 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:30:47.076 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:30:47.076 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:30:47.076 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:30:47.076 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:30:47.076 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:30:49.443 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:30:49.443 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:30:49.444 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:30:49.444 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:30:49.444 | INFO     | app.services.citation_service:build:46 - Generated 4 citations.
+2026-07-16 23:30:49.444 | INFO     | app.services.citation_service:build:46 - Generated 4 citations.
+2026-07-16 23:31:05.566 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:05.566 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:05.623 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:05.623 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:05.624 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-16 23:31:05.624 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-16 23:31:05.624 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-16 23:31:05.624 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-16 23:31:05.743 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 23:31:05.743 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-16 23:31:05.744 | INFO     | app.services.indexing_service:index_document:36 - Loaded 1 pages.
+2026-07-16 23:31:05.744 | INFO     | app.services.indexing_service:index_document:36 - Loaded 1 pages.
+2026-07-16 23:31:05.745 | INFO     | app.services.indexing_service:index_document:45 - Generated 2 chunks.
+2026-07-16 23:31:05.745 | INFO     | app.services.indexing_service:index_document:45 - Generated 2 chunks.
+2026-07-16 23:31:05.745 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-16 23:31:05.745 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-16 23:31:05.745 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 2 deterministic chunk IDs.
+2026-07-16 23:31:05.745 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 2 deterministic chunk IDs.
+2026-07-16 23:31:05.747 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 11 existing chunks in ChromaDB.
+2026-07-16 23:31:05.747 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 11 existing chunks in ChromaDB.
+2026-07-16 23:31:06.489 | INFO     | app.vectorstore.chroma_store:add_documents:93 - Indexed 2 new chunks.
+2026-07-16 23:31:06.489 | INFO     | app.vectorstore.chroma_store:add_documents:93 - Indexed 2 new chunks.
+2026-07-16 23:31:06.490 | INFO     | app.vectorstore.chroma_store:add_documents:96 - Skipped 0 duplicate chunks.
+2026-07-16 23:31:06.490 | INFO     | app.vectorstore.chroma_store:add_documents:96 - Skipped 0 duplicate chunks.
+2026-07-16 23:31:06.490 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-16 23:31:06.490 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-16 23:31:06.491 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-16 23:31:06.491 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-16 23:31:19.455 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:19.455 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:19.522 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:19.522 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:19.576 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:19.576 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:31:19.577 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:31:19.577 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:31:19.578 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 13 documents from ChromaDB.
+2026-07-16 23:31:19.578 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 13 documents from ChromaDB.
+2026-07-16 23:31:19.579 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 13 documents.
+2026-07-16 23:31:19.579 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 13 documents.
+2026-07-16 23:31:19.579 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:31:19.579 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:31:19.579 | INFO     | app.services.rag_service:ask:21 - Question : tell me what is OOP ?
+2026-07-16 23:31:19.579 | INFO     | app.services.rag_service:ask:21 - Question : tell me what is OOP ?
+2026-07-16 23:31:19.580 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: tell me what is OOP ?
+2026-07-16 23:31:19.580 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: tell me what is OOP ?
+2026-07-16 23:31:19.580 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: tell me what is OOP ?
+2026-07-16 23:31:19.580 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: tell me what is OOP ?
+2026-07-16 23:31:19.580 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: tell me what is OOP ?
+2026-07-16 23:31:19.580 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: tell me what is OOP ?
+2026-07-16 23:31:19.997 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 13 relevant chunks.
+2026-07-16 23:31:19.997 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 13 relevant chunks.
+2026-07-16 23:31:19.998 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 13 documents.
+2026-07-16 23:31:19.998 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 13 documents.
+2026-07-16 23:31:19.998 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : tell me what is OOP ?
+2026-07-16 23:31:19.998 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : tell me what is OOP ?
+2026-07-16 23:31:19.999 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 13 documents.
+2026-07-16 23:31:19.999 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 13 documents.
+2026-07-16 23:31:19.999 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 11 unique documents.
+2026-07-16 23:31:19.999 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 11 unique documents.
+2026-07-16 23:31:19.999 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 11 documents...
+2026-07-16 23:31:19.999 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 11 documents...
+2026-07-16 23:31:20.339 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:31:20.339 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:31:20.339 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:31:20.339 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:31:20.339 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:31:20.339 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:31:20.340 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:31:20.340 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:31:26.508 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:31:26.508 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:31:26.508 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:31:26.508 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:31:26.508 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-16 23:31:26.508 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-16 23:38:39.022 | INFO     | app.evaluation.dataset_loader:load:25 - Loading evaluation dataset : C:\Users\ASUS\Desktop\AD_RAG\evaluation\dataset.json
+2026-07-16 23:38:39.022 | INFO     | app.evaluation.dataset_loader:load:37 - Loaded 3 evaluation samples.
+2026-07-16 23:38:51.740 | INFO     | app.evaluation.dataset_loader:load:25 - Loading evaluation dataset : C:\Users\ASUS\Desktop\AD_RAG\evaluation\dataset.json
+2026-07-16 23:38:51.740 | INFO     | app.evaluation.dataset_loader:load:37 - Loaded 3 evaluation samples.
+2026-07-16 23:40:19.316 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:40:19.353 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:40:19.353 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:40:19.394 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 13 documents from ChromaDB.
+2026-07-16 23:40:19.397 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 13 documents.
+2026-07-16 23:40:19.397 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:40:19.397 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:40:19.437 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:40:19.437 | INFO     | app.evaluation.dataset_loader:load:25 - Loading evaluation dataset : C:\Users\ASUS\Desktop\AD_RAG\evaluation\dataset.json
+2026-07-16 23:40:19.437 | INFO     | app.evaluation.dataset_loader:load:37 - Loaded 3 evaluation samples.
+2026-07-16 23:40:19.437 | INFO     | app.evaluation.evaluation_service:evaluate:22 - Starting Evaluation...
+2026-07-16 23:40:19.438 | INFO     | app.evaluation.evaluation_service:evaluate:34 - Evaluating : What is Production RAG?
+2026-07-16 23:40:19.438 | INFO     | app.services.rag_service:ask:21 - Question : What is Production RAG?
+2026-07-16 23:40:19.438 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What is Production RAG?
+2026-07-16 23:40:19.438 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What is Production RAG?
+2026-07-16 23:40:19.438 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: What is Production RAG?
+2026-07-16 23:40:19.887 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 13 relevant chunks.
+2026-07-16 23:40:19.887 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 13 documents.
+2026-07-16 23:40:19.888 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : What is Production RAG?
+2026-07-16 23:40:19.894 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 13 documents.
+2026-07-16 23:40:19.894 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 11 unique documents.
+2026-07-16 23:40:19.894 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:40:32.525 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:40:32.525 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 11 documents...
+2026-07-16 23:40:32.781 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:40:32.781 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:40:32.781 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:40:32.782 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:40:34.623 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:40:34.623 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:40:34.624 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-16 23:40:34.624 | INFO     | app.evaluation.evaluation_service:evaluate:34 - Evaluating : What are the main components of the architecture?
+2026-07-16 23:40:34.624 | INFO     | app.services.rag_service:ask:21 - Question : What are the main components of the architecture?
+2026-07-16 23:40:34.624 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: What are the main components of the architecture?
+2026-07-16 23:40:34.625 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: What are the main components of the architecture?
+2026-07-16 23:40:34.625 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: What are the main components of the architecture?
+2026-07-16 23:40:35.044 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 13 relevant chunks.
+2026-07-16 23:40:35.045 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 13 documents.
+2026-07-16 23:40:35.045 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : What are the main components of the architecture?
+2026-07-16 23:40:35.045 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 13 documents.
+2026-07-16 23:40:35.045 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 11 unique documents.
+2026-07-16 23:40:35.046 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 11 documents...
+2026-07-16 23:40:35.269 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:40:35.269 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:40:35.269 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:40:35.269 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:40:37.654 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:40:37.655 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:40:37.655 | INFO     | app.services.citation_service:build:46 - Generated 4 citations.
+2026-07-16 23:40:37.655 | INFO     | app.evaluation.evaluation_service:evaluate:34 - Evaluating : Why is Hybrid Retrieval used?
+2026-07-16 23:40:37.656 | INFO     | app.services.rag_service:ask:21 - Question : Why is Hybrid Retrieval used?
+2026-07-16 23:40:37.656 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: Why is Hybrid Retrieval used?
+2026-07-16 23:40:37.656 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: Why is Hybrid Retrieval used?
+2026-07-16 23:40:37.656 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: Why is Hybrid Retrieval used?
+2026-07-16 23:40:38.009 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 13 relevant chunks.
+2026-07-16 23:40:38.009 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 13 documents.
+2026-07-16 23:40:38.009 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : Why is Hybrid Retrieval used?
+2026-07-16 23:40:38.010 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 13 documents.
+2026-07-16 23:40:38.010 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 11 unique documents.
+2026-07-16 23:40:38.010 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 11 documents...
+2026-07-16 23:40:38.229 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:40:38.229 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:40:38.229 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:40:38.229 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:40:40.200 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:40:40.200 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:40:40.201 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-16 23:40:40.201 | INFO     | app.evaluation.evaluation_service:evaluate:52 - Evaluation completed successfully.
+2026-07-16 23:50:17.099 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:50:41.066 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:50:41.066 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:50:46.061 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:50:46.061 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:50:46.120 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:50:46.120 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:50:46.121 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-16 23:50:46.121 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-16 23:50:46.121 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-16 23:50:46.121 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-16 23:50:46.933 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 8 pages successfully.
+2026-07-16 23:50:46.933 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 8 pages successfully.
+2026-07-16 23:50:46.933 | INFO     | app.services.indexing_service:index_document:36 - Loaded 8 pages.
+2026-07-16 23:50:46.933 | INFO     | app.services.indexing_service:index_document:36 - Loaded 8 pages.
+2026-07-16 23:50:46.936 | INFO     | app.services.indexing_service:index_document:45 - Generated 50 chunks.
+2026-07-16 23:50:46.936 | INFO     | app.services.indexing_service:index_document:45 - Generated 50 chunks.
+2026-07-16 23:50:46.936 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 50 chunks for indexing...
+2026-07-16 23:50:46.936 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 50 chunks for indexing...
+2026-07-16 23:50:46.937 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 50 deterministic chunk IDs.
+2026-07-16 23:50:46.937 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 50 deterministic chunk IDs.
+2026-07-16 23:50:46.939 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 13 existing chunks in ChromaDB.
+2026-07-16 23:50:46.939 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 13 existing chunks in ChromaDB.
+2026-07-16 23:50:48.981 | INFO     | app.vectorstore.chroma_store:add_documents:93 - Indexed 50 new chunks.
+2026-07-16 23:50:48.981 | INFO     | app.vectorstore.chroma_store:add_documents:93 - Indexed 50 new chunks.
+2026-07-16 23:50:48.982 | INFO     | app.vectorstore.chroma_store:add_documents:96 - Skipped 0 duplicate chunks.
+2026-07-16 23:50:48.982 | INFO     | app.vectorstore.chroma_store:add_documents:96 - Skipped 0 duplicate chunks.
+2026-07-16 23:50:48.982 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-16 23:50:48.982 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-16 23:50:48.983 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-16 23:50:48.983 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-16 23:51:44.098 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:51:44.098 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:51:44.164 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:51:44.164 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:51:44.221 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:51:44.221 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:51:44.221 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:51:44.221 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:51:44.227 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-16 23:51:44.227 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-16 23:51:44.239 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-16 23:51:44.239 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-16 23:51:44.239 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:51:44.239 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:51:44.239 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:51:44.239 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:51:44.312 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:51:44.312 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:51:44.312 | INFO     | app.services.rag_service:ask:43 - Question : can you give the summary of this research paper ??
+2026-07-16 23:51:44.312 | INFO     | app.services.rag_service:ask:43 - Question : can you give the summary of this research paper ??
+2026-07-16 23:51:44.312 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: can you give the summary of this research paper ??
+2026-07-16 23:51:44.312 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: can you give the summary of this research paper ??
+2026-07-16 23:51:44.313 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: can you give the summary of this research paper ??
+2026-07-16 23:51:44.313 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: can you give the summary of this research paper ??
+2026-07-16 23:51:44.313 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: can you give the summary of this research paper ??
+2026-07-16 23:51:44.313 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: can you give the summary of this research paper ??
+2026-07-16 23:51:44.814 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-16 23:51:44.814 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-16 23:51:44.815 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-16 23:51:44.815 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-16 23:51:44.815 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : can you give the summary of this research paper ??
+2026-07-16 23:51:44.815 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : can you give the summary of this research paper ??
+2026-07-16 23:51:44.828 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-16 23:51:44.828 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-16 23:51:44.829 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-16 23:51:44.829 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-16 23:51:44.829 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:51:44.829 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:51:53.989 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:51:53.989 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:51:53.990 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-16 23:51:53.990 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-16 23:51:55.268 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:51:55.268 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:51:55.268 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:51:55.268 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:51:55.268 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:51:55.268 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:51:55.269 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:51:55.269 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:51:58.818 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:51:58.818 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:51:58.818 | INFO     | app.services.rag_service:ask:89 - Answer generated successfully.
+2026-07-16 23:51:58.818 | INFO     | app.services.rag_service:ask:89 - Answer generated successfully.
+2026-07-16 23:51:58.818 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-16 23:51:58.818 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-16 23:56:12.089 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:30.027 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:30.027 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:34.915 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:34.915 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:34.980 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:34.980 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:34.980 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-16 23:56:34.980 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-16 23:56:34.981 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-16 23:56:34.981 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-16 23:56:35.724 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 8 pages successfully.
+2026-07-16 23:56:35.724 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 8 pages successfully.
+2026-07-16 23:56:35.724 | INFO     | app.services.indexing_service:index_document:36 - Loaded 8 pages.
+2026-07-16 23:56:35.724 | INFO     | app.services.indexing_service:index_document:36 - Loaded 8 pages.
+2026-07-16 23:56:35.727 | INFO     | app.services.indexing_service:index_document:45 - Generated 50 chunks.
+2026-07-16 23:56:35.727 | INFO     | app.services.indexing_service:index_document:45 - Generated 50 chunks.
+2026-07-16 23:56:35.727 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 50 chunks for indexing...
+2026-07-16 23:56:35.727 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 50 chunks for indexing...
+2026-07-16 23:56:35.727 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 50 deterministic chunk IDs.
+2026-07-16 23:56:35.727 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 50 deterministic chunk IDs.
+2026-07-16 23:56:35.734 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 63 existing chunks in ChromaDB.
+2026-07-16 23:56:35.734 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 63 existing chunks in ChromaDB.
+2026-07-16 23:56:35.734 | INFO     | app.vectorstore.chroma_store:add_documents:82 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-16 23:56:35.734 | INFO     | app.vectorstore.chroma_store:add_documents:82 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-16 23:56:35.734 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-16 23:56:35.734 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-16 23:56:35.735 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-16 23:56:35.735 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-16 23:56:56.265 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:56.265 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:56.333 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:56.333 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:56.385 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:56.385 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-16 23:56:56.385 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:56:56.385 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-16 23:56:56.391 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-16 23:56:56.391 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-16 23:56:56.402 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-16 23:56:56.402 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-16 23:56:56.402 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:56:56.402 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-16 23:56:56.402 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:56:56.402 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-16 23:56:56.475 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:56:56.475 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-16 23:56:56.476 | INFO     | app.services.rag_service:ask:21 - Question : can you genrate the summary of this research paper ??
+2026-07-16 23:56:56.476 | INFO     | app.services.rag_service:ask:21 - Question : can you genrate the summary of this research paper ??
+2026-07-16 23:56:56.476 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: can you genrate the summary of this research paper ??
+2026-07-16 23:56:56.476 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: can you genrate the summary of this research paper ??
+2026-07-16 23:56:56.476 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: can you genrate the summary of this research paper ??
+2026-07-16 23:56:56.476 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: can you genrate the summary of this research paper ??
+2026-07-16 23:56:56.476 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: can you genrate the summary of this research paper ??
+2026-07-16 23:56:56.476 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: can you genrate the summary of this research paper ??
+2026-07-16 23:56:57.013 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-16 23:56:57.013 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-16 23:56:57.013 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-16 23:56:57.013 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-16 23:56:57.013 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : can you genrate the summary of this research paper ??
+2026-07-16 23:56:57.013 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : can you genrate the summary of this research paper ??
+2026-07-16 23:56:57.024 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-16 23:56:57.024 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-16 23:56:57.024 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 25 unique documents.
+2026-07-16 23:56:57.024 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 25 unique documents.
+2026-07-16 23:56:57.024 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:56:57.024 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-16 23:57:05.410 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:57:05.410 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-16 23:57:05.410 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 25 documents...
+2026-07-16 23:57:05.410 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 25 documents...
+2026-07-16 23:57:06.611 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:57:06.611 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-16 23:57:06.612 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:57:06.612 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-16 23:57:06.612 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:57:06.612 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-16 23:57:06.612 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:57:06.612 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-16 23:57:10.049 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:57:10.049 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-16 23:57:10.049 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:57:10.049 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-16 23:57:10.050 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-16 23:57:10.050 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-17 00:22:22.595 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 00:22:47.571 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 00:23:04.018 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 00:23:04.086 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 00:23:04.159 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 00:23:04.159 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 00:23:04.166 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 00:23:04.178 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 00:23:04.178 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 00:23:04.179 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-17 00:23:04.251 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 00:23:04.251 | INFO     | app.services.rag_service:ask:21 - Question : tell me the summary of this pdf ??
+2026-07-17 00:23:04.251 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: tell me the summary of this pdf ??
+2026-07-17 00:23:04.251 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: tell me the summary of this pdf ??
+2026-07-17 00:23:04.252 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: tell me the summary of this pdf ??
+2026-07-17 00:23:05.121 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 00:23:05.122 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 00:23:05.122 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : tell me the summary of this pdf ??
+2026-07-17 00:23:05.144 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 00:23:05.145 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 24 unique documents.
+2026-07-17 00:23:05.145 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 00:23:14.757 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 00:23:14.757 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 24 documents...
+2026-07-17 00:23:16.151 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 00:23:16.153 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 00:23:16.153 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 00:23:16.154 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 00:23:21.474 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-17 00:23:21.475 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-17 00:23:21.475 | INFO     | app.services.citation_service:build:46 - Generated 4 citations.
+2026-07-17 10:19:05.344 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:19:36.359 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:19:38.565 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:19:38.615 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:19:38.616 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-17 10:19:38.616 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-17 10:19:38.722 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-17 10:19:38.722 | INFO     | app.services.indexing_service:index_document:36 - Loaded 1 pages.
+2026-07-17 10:19:38.722 | INFO     | app.services.indexing_service:index_document:45 - Generated 2 chunks.
+2026-07-17 10:19:38.723 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-17 10:19:38.723 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 2 deterministic chunk IDs.
+2026-07-17 10:19:38.726 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 63 existing chunks in ChromaDB.
+2026-07-17 10:19:38.726 | INFO     | app.vectorstore.chroma_store:add_documents:82 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-17 10:19:38.726 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-17 10:19:38.726 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-17 10:19:56.905 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:19:56.954 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:19:56.992 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:19:56.992 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:19:56.997 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:19:57.003 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:19:57.004 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:19:57.004 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-17 10:19:57.047 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 10:19:57.048 | INFO     | app.services.rag_service:ask:21 - Question : genrate the summary of pdf ??
+2026-07-17 10:19:57.048 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: genrate the summary of pdf ??
+2026-07-17 10:19:57.048 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: genrate the summary of pdf ??
+2026-07-17 10:19:57.048 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: genrate the summary of pdf ??
+2026-07-17 10:19:57.952 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:19:57.952 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:19:57.952 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : genrate the summary of pdf ??
+2026-07-17 10:19:57.969 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:19:57.969 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:19:57.969 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:20:06.531 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:20:06.531 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:20:07.574 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:20:07.574 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:20:07.575 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:20:07.575 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:20:12.394 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-17 10:20:12.394 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-17 10:20:12.394 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-17 10:21:30.234 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:21:30.280 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:21:30.280 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-17 10:21:30.280 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-17 10:21:30.291 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-17 10:21:30.291 | INFO     | app.services.indexing_service:index_document:36 - Loaded 1 pages.
+2026-07-17 10:21:30.292 | INFO     | app.services.indexing_service:index_document:45 - Generated 2 chunks.
+2026-07-17 10:21:30.292 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-17 10:21:30.292 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 2 deterministic chunk IDs.
+2026-07-17 10:21:30.298 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 63 existing chunks in ChromaDB.
+2026-07-17 10:21:30.298 | INFO     | app.vectorstore.chroma_store:add_documents:82 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-17 10:21:30.298 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-17 10:21:30.299 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-17 10:22:00.384 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:22:00.432 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:22:00.467 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:22:00.467 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:22:00.471 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:22:00.476 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:22:00.476 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:22:00.476 | INFO     | app.services.rag_service:ask:21 - Question : genrate the summary of pdf ??
+2026-07-17 10:22:00.477 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: genrate the summary of pdf ??
+2026-07-17 10:22:00.477 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: genrate the summary of pdf ??
+2026-07-17 10:22:00.477 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: genrate the summary of pdf ??
+2026-07-17 10:22:01.005 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:22:01.005 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:22:01.005 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : genrate the summary of pdf ??
+2026-07-17 10:22:01.006 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:22:01.006 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:22:01.006 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:22:01.896 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:22:01.897 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:22:01.897 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:22:01.897 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:22:12.551 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-17 10:22:12.552 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-17 10:22:12.552 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-17 10:25:39.141 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:26:09.505 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:26:11.720 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:26:11.767 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:26:11.767 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-17 10:26:11.767 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-17 10:26:11.847 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-17 10:26:11.847 | INFO     | app.services.indexing_service:index_document:36 - Loaded 1 pages.
+2026-07-17 10:26:11.847 | INFO     | app.services.indexing_service:index_document:45 - Generated 2 chunks.
+2026-07-17 10:26:11.847 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-17 10:26:11.848 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 2 deterministic chunk IDs.
+2026-07-17 10:26:11.851 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 63 existing chunks in ChromaDB.
+2026-07-17 10:26:11.852 | INFO     | app.vectorstore.chroma_store:add_documents:82 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-17 10:26:11.852 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-17 10:26:11.852 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-17 10:26:24.102 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:26:24.150 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:26:24.186 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:26:24.186 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:26:24.191 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:26:24.195 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:26:24.196 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:26:24.196 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-17 10:26:24.236 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 10:26:24.237 | INFO     | app.services.rag_service:ask:21 - Question : tell me what is oop ?
+2026-07-17 10:26:24.237 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: tell me what is oop ?
+2026-07-17 10:26:24.237 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: tell me what is oop ?
+2026-07-17 10:26:24.237 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: tell me what is oop ?
+2026-07-17 10:26:24.923 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:26:24.923 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:26:24.923 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : tell me what is oop ?
+2026-07-17 10:26:24.930 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:26:24.930 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:26:24.930 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:26:33.182 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:26:33.183 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:26:33.830 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:26:33.831 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:26:33.831 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:26:33.832 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:28:53.011 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:29:26.198 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:29:26.247 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:29:26.283 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:29:26.284 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:29:26.288 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:29:26.293 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:29:26.293 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:29:26.294 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-17 10:29:26.334 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 10:29:26.334 | INFO     | app.services.rag_service:ask:21 - Question : tell me what is oop ??
+2026-07-17 10:29:26.334 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: tell me what is oop ??
+2026-07-17 10:29:26.335 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: tell me what is oop ??
+2026-07-17 10:29:26.335 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: tell me what is oop ??
+2026-07-17 10:29:26.824 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:29:26.824 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:29:26.824 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : tell me what is oop ??
+2026-07-17 10:29:26.832 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:29:26.832 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:29:26.832 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:29:35.142 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:29:35.142 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:29:35.723 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:29:35.723 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:29:35.723 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:29:35.724 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:32:46.423 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:33:00.606 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:33:00.649 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:33:00.683 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:33:00.683 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:33:00.689 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:33:00.697 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:33:00.697 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:33:00.698 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-17 10:33:00.737 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 10:33:00.739 | INFO     | app.services.rag_service:ask:21 - Question : what is oop ?
+2026-07-17 10:33:00.739 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is oop ?
+2026-07-17 10:33:00.739 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is oop ?
+2026-07-17 10:33:00.739 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is oop ?
+2026-07-17 10:33:01.291 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:33:01.291 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:33:01.292 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is oop ?
+2026-07-17 10:33:01.299 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:33:01.299 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:33:01.299 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:33:09.448 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:33:09.448 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:33:10.033 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:33:10.033 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:33:10.033 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:33:10.034 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:34:48.571 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:34:59.981 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:35:00.030 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:35:00.064 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:35:00.064 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:35:00.071 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:35:00.079 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:35:00.079 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:35:00.079 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash-lite
+2026-07-17 10:35:00.123 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 10:35:00.123 | INFO     | app.services.rag_service:ask:21 - Question : what is oop ??
+2026-07-17 10:35:00.124 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is oop ??
+2026-07-17 10:35:00.124 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is oop ??
+2026-07-17 10:35:00.124 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is oop ??
+2026-07-17 10:35:00.613 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:35:00.614 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:35:00.614 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is oop ??
+2026-07-17 10:35:00.621 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:35:00.621 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:35:00.621 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:35:08.921 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:35:08.921 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:35:09.479 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:35:09.480 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:35:09.480 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:35:09.480 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:42:10.461 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:42:21.951 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:42:21.996 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:42:22.028 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:42:22.028 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:42:22.036 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:42:22.044 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:42:22.045 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:42:22.045 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash-lite
+2026-07-17 10:42:22.122 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 10:42:22.122 | INFO     | app.services.rag_service:ask:21 - Question : what is oop ??
+2026-07-17 10:42:22.122 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is oop ??
+2026-07-17 10:42:22.122 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is oop ??
+2026-07-17 10:42:22.123 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is oop ??
+2026-07-17 10:42:23.300 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:42:23.301 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:42:23.301 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is oop ??
+2026-07-17 10:42:23.308 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:42:23.309 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:42:23.309 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:42:31.545 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:42:31.545 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:42:32.454 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:42:32.455 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:42:32.455 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:42:32.455 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:45:04.009 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:45:18.106 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:45:20.164 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:45:20.205 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:45:20.206 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-17 10:45:20.206 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\OOP_Interview_Smart_Answers_Kunal.pdf
+2026-07-17 10:45:20.284 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 1 pages successfully.
+2026-07-17 10:45:20.285 | INFO     | app.services.indexing_service:index_document:36 - Loaded 1 pages.
+2026-07-17 10:45:20.285 | INFO     | app.services.indexing_service:index_document:45 - Generated 2 chunks.
+2026-07-17 10:45:20.286 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 2 chunks for indexing...
+2026-07-17 10:45:20.286 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 2 deterministic chunk IDs.
+2026-07-17 10:45:20.290 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 63 existing chunks in ChromaDB.
+2026-07-17 10:45:20.290 | INFO     | app.vectorstore.chroma_store:add_documents:82 - No new chunks found. ChromaDB is already up-to-date.
+2026-07-17 10:45:20.290 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-17 10:45:20.291 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-17 10:45:30.998 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:45:31.042 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:45:31.078 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:45:31.079 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:45:31.083 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:45:31.089 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:45:31.090 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:45:31.090 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-2.5-flash
+2026-07-17 10:45:31.131 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 10:45:31.132 | INFO     | app.services.rag_service:ask:21 - Question : tell me what is oop ??
+2026-07-17 10:45:31.132 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: tell me what is oop ??
+2026-07-17 10:45:31.132 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: tell me what is oop ??
+2026-07-17 10:45:31.132 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: tell me what is oop ??
+2026-07-17 10:45:31.717 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:45:31.717 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:45:31.718 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : tell me what is oop ??
+2026-07-17 10:45:31.725 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:45:31.725 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:45:31.726 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:45:40.015 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:45:40.015 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:45:40.676 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:45:40.676 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:45:40.677 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:45:40.677 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:50:16.364 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:50:27.721 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:50:27.762 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:50:27.795 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:50:27.795 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:50:27.800 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:50:27.807 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:50:27.807 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:50:27.808 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-pro-latest
+2026-07-17 10:50:27.851 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 10:50:27.851 | INFO     | app.services.rag_service:ask:21 - Question : what is oop ??
+2026-07-17 10:50:27.851 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is oop ??
+2026-07-17 10:50:27.851 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is oop ??
+2026-07-17 10:50:27.851 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is oop ??
+2026-07-17 10:50:28.362 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:50:28.362 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:50:28.362 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is oop ??
+2026-07-17 10:50:28.370 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:50:28.370 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:50:28.370 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:50:36.716 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:50:36.717 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:50:37.317 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:50:37.317 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:50:37.318 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:50:37.318 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:54:35.206 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:54:46.920 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:54:46.965 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:54:47.000 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:54:47.000 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:54:47.004 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:54:47.009 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:54:47.009 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:54:47.009 | INFO     | app.llm.gemini_llm:__init__:10 - Loading Gemini Model : gemini-3.5-flash
+2026-07-17 10:54:47.066 | INFO     | app.llm.gemini_llm:__init__:14 - Loded Model Successfully
+2026-07-17 10:54:47.067 | INFO     | app.services.rag_service:ask:21 - Question : what is oop ??
+2026-07-17 10:54:47.067 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is oop ??
+2026-07-17 10:54:47.067 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is oop ??
+2026-07-17 10:54:47.067 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is oop ??
+2026-07-17 10:54:47.574 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:54:47.575 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:54:47.575 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is oop ??
+2026-07-17 10:54:47.582 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:54:47.582 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:54:47.582 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:54:56.048 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:54:56.049 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:54:56.765 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:54:56.765 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:54:56.766 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:54:56.766 | INFO     | app.llm.gemini_llm:generate:17 - Genrating Response
+2026-07-17 10:55:00.950 | INFO     | app.llm.gemini_llm:generate:20 - Genrated Res Successfully
+2026-07-17 10:55:00.950 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-17 10:55:00.950 | INFO     | app.services.citation_service:build:46 - Generated 4 citations.
+2026-07-17 10:57:48.972 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:58:00.606 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:58:00.649 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:58:00.690 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 10:58:00.691 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 10:58:00.697 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 10:58:00.703 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 10:58:00.704 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 10:58:00.704 | INFO     | app.llm.gemini_llm:__init__:19 - Loading Gemini Model : gemini-3.5-flash
+2026-07-17 10:58:00.751 | INFO     | app.llm.gemini_llm:__init__:29 - Loaded Gemini Model Successfully.
+2026-07-17 10:58:00.751 | INFO     | app.services.rag_service:ask:21 - Question : what is oop ??
+2026-07-17 10:58:00.751 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is oop ??
+2026-07-17 10:58:00.751 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is oop ??
+2026-07-17 10:58:00.751 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is oop ??
+2026-07-17 10:58:01.386 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 10:58:01.386 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 10:58:01.387 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is oop ??
+2026-07-17 10:58:01.394 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 10:58:01.394 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 10:58:01.394 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 10:58:09.728 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 10:58:09.729 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 10:58:10.535 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 10:58:10.535 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 10:58:10.536 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 10:58:10.536 | INFO     | app.llm.gemini_llm:generate:38 - Generating Response...
+2026-07-17 10:58:14.948 | INFO     | app.llm.gemini_llm:generate:46 - Response Generated Successfully.
+2026-07-17 10:58:14.949 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-17 10:58:14.949 | INFO     | app.services.citation_service:build:46 - Generated 4 citations.
+2026-07-17 11:05:52.098 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:07.630 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:07.695 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:07.747 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:07.747 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 11:06:07.753 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 63 documents from ChromaDB.
+2026-07-17 11:06:07.761 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 63 documents.
+2026-07-17 11:06:07.762 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 11:06:07.762 | INFO     | app.llm.gemini_llm:__init__:19 - Loading Gemini Model : gemini-3.5-flash
+2026-07-17 11:06:07.826 | INFO     | app.llm.gemini_llm:__init__:29 - Loaded Gemini Model Successfully.
+2026-07-17 11:06:07.827 | INFO     | app.services.rag_service:ask:21 - Question : what is oop ?
+2026-07-17 11:06:07.827 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: what is oop ?
+2026-07-17 11:06:07.827 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: what is oop ?
+2026-07-17 11:06:07.827 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: what is oop ?
+2026-07-17 11:06:08.354 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 11:06:08.354 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 11:06:08.354 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : what is oop ?
+2026-07-17 11:06:08.364 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 11:06:08.365 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 26 unique documents.
+2026-07-17 11:06:08.365 | INFO     | app.reranker.cross_encoder_reranker:_load_model:21 - Loading Cross Encoder : cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-17 11:06:16.741 | INFO     | app.reranker.cross_encoder_reranker:_load_model:31 - Cross Encoder loaded successfully.
+2026-07-17 11:06:16.742 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 26 documents...
+2026-07-17 11:06:17.590 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 11:06:17.590 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 11:06:17.590 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 11:06:17.591 | INFO     | app.llm.gemini_llm:generate:38 - Generating Response...
+2026-07-17 11:06:22.700 | INFO     | app.llm.gemini_llm:generate:46 - Response Generated Successfully.
+2026-07-17 11:06:22.701 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-17 11:06:22.701 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
+2026-07-17 11:06:35.281 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:35.338 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:35.338 | INFO     | app.vectorstore.chroma_store:clear:186 - Deleting all documents from ChromaDB...
+2026-07-17 11:06:35.427 | INFO     | app.vectorstore.chroma_store:clear:193 - Knowledge Base Clear
+2026-07-17 11:06:35.781 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:49.853 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:52.053 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:52.086 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:06:52.087 | INFO     | app.services.indexing_service:index_document:27 - Indexing document : C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-17 11:06:52.087 | INFO     | app.loaders.pdf_loader:load:9 - loading file: C:\Users\ASUS\Desktop\AD_RAG\data\raw\Stock_Price_Prediction_Using_Time_Series.pdf
+2026-07-17 11:06:52.530 | INFO     | app.loaders.pdf_loader:load:12 - Loaded 8 pages successfully.
+2026-07-17 11:06:52.530 | INFO     | app.services.indexing_service:index_document:36 - Loaded 8 pages.
+2026-07-17 11:06:52.531 | INFO     | app.services.indexing_service:index_document:45 - Generated 50 chunks.
+2026-07-17 11:06:52.532 | INFO     | app.vectorstore.chroma_store:add_documents:41 - Preparing 50 chunks for indexing...
+2026-07-17 11:06:52.532 | INFO     | app.vectorstore.chroma_store:add_documents:55 - Generated 50 deterministic chunk IDs.
+2026-07-17 11:06:52.533 | INFO     | app.vectorstore.chroma_store:add_documents:63 - Found 0 existing chunks in ChromaDB.
+2026-07-17 11:06:53.855 | INFO     | app.vectorstore.chroma_store:add_documents:93 - Indexed 50 new chunks.
+2026-07-17 11:06:53.855 | INFO     | app.vectorstore.chroma_store:add_documents:96 - Skipped 0 duplicate chunks.
+2026-07-17 11:06:53.855 | INFO     | app.services.indexing_service:index_document:54 - Saved chunks into ChromaDB.
+2026-07-17 11:06:53.856 | INFO     | app.services.indexing_service:index_document:58 - Indexing completed successfully.
+2026-07-17 11:07:09.278 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:07:09.320 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:07:09.349 | INFO     | app.vectorstore.chroma_store:__init__:30 - ChromaDB initialized successfully.
+2026-07-17 11:07:09.349 | INFO     | app.vectorstore.chroma_store:get_all_documents:157 - Loading all indexed documents from ChromaDB...
+2026-07-17 11:07:09.352 | INFO     | app.vectorstore.chroma_store:get_all_documents:179 - Loaded 50 documents from ChromaDB.
+2026-07-17 11:07:09.356 | INFO     | app.retriever.bm25_retriever:__init__:49 - BM25 initialized with 50 documents.
+2026-07-17 11:07:09.356 | INFO     | app.retriever.hybrid_retriever:__init__:15 - Hybrid Retriever initialized successfully.
+2026-07-17 11:07:09.356 | INFO     | app.services.rag_service:ask:21 - Question : genrate the summary of PDF ??
+2026-07-17 11:07:09.356 | INFO     | app.retriever.hybrid_retriever:retrieve:22 - Running Hybrid Retrieval for query: genrate the summary of PDF ??
+2026-07-17 11:07:09.356 | INFO     | app.retriever.vector_retriever:retrieve:29 - Retrieving documents for query: genrate the summary of PDF ??
+2026-07-17 11:07:09.357 | INFO     | app.vectorstore.chroma_store:similarity_search:111 - Searching top 15 documents for query: genrate the summary of PDF ??
+2026-07-17 11:07:09.819 | INFO     | app.vectorstore.chroma_store:similarity_search:120 - Retrieved 15 relevant chunks.
+2026-07-17 11:07:09.819 | INFO     | app.retriever.vector_retriever:retrieve:38 - Retrieved 15 documents.
+2026-07-17 11:07:09.819 | INFO     | app.retriever.bm25_retriever:retrieve:65 - BM25 retrieving documents for : genrate the summary of PDF ??
+2026-07-17 11:07:09.820 | INFO     | app.retriever.bm25_retriever:retrieve:71 - BM25 retrieved 15 documents.
+2026-07-17 11:07:09.820 | INFO     | app.retriever.hybrid_retriever:retrieve:46 - Hybrid Retriever returned 25 unique documents.
+2026-07-17 11:07:09.820 | INFO     | app.reranker.cross_encoder_reranker:rerank:50 - Reranking 25 documents...
+2026-07-17 11:07:10.606 | INFO     | app.reranker.cross_encoder_reranker:rerank:74 - Returned Top 5 reranked documents.
+2026-07-17 11:07:10.607 | INFO     | app.services.context_builder:build:24 - Building context using 5 documents.
+2026-07-17 11:07:10.607 | INFO     | app.services.context_builder:build:58 - Context built successfully.
+2026-07-17 11:07:10.607 | INFO     | app.llm.gemini_llm:generate:38 - Generating Response...
+2026-07-17 11:07:17.565 | INFO     | app.llm.gemini_llm:generate:46 - Response Generated Successfully.
+2026-07-17 11:07:17.565 | INFO     | app.services.rag_service:ask:52 - Answer generated successfully.
+2026-07-17 11:07:17.566 | INFO     | app.services.citation_service:build:46 - Generated 3 citations.
