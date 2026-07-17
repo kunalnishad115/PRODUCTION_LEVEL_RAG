@@ -16,9 +16,6 @@ def render_sidebar():
         type=["pdf"]
     )
 
-    # -----------------------------
-    # Upload PDF
-    # -----------------------------
 
     if uploaded_file is not None:
 
@@ -34,10 +31,6 @@ def render_sidebar():
         st.sidebar.success(
             f"{uploaded_file.name} uploaded successfully."
         )
-
-        # -----------------------------
-        # Index Document
-        # -----------------------------
 
         if st.sidebar.button(
             "🚀 Index Document",
@@ -64,9 +57,6 @@ def render_sidebar():
                 "✅ Indexing Completed Successfully!"
             )
 
-    # -----------------------------
-    # Clear Knowledge Base
-    # -----------------------------
 
     st.sidebar.divider()
 
