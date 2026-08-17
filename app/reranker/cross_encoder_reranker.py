@@ -9,11 +9,8 @@ from app.utils.logger import logger
 
 
 class CrossEncoderReranker(BaseReranker):
-
     def __init__(self):
-
         self.model = None
-
     def _load_model(self):
 
         if self.model is None:
